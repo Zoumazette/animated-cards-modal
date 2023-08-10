@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MavenPro:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="global.js" defer></script>
+</head>
+
+<body>
+    <section id="banner" class="banner">
+        <div class="container">
+            <div class="grid">
+                <div class="grid__item">
+                    <div class="card" data-category="web">
+                        <img src="Rectangle_103.png" alt="Sols et murs" width="1500" height="500" class="card__image" loading="lazy">
+                        <div class="card__inner">
+                            <h3 class="card__title">Sols & Murs</h3>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="#" class="card__link" data-id="modal-1">
+                                <div class="progressbar">
+                                    <h2 class="bar" data-width="100">Voir cette collection</h2>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal" id="modal-1">
+                        <button class="modal__close">&times;</button>
+                        <div class="modal__content">
+                            <div class="container">
+                                <div class="grid">
+                                    <div class="grid__item">
+                                        <img width="560" height="373" src="https://picsum.photos/600/?400random=11" alt="Présentation" class="card__image" loading="lazy">
+                                        <img width="560" height="373" src="https://picsum.photos/600/?400random=12" alt="Une autre présentation" class="card__image" loading="lazy">
+                                    </div>
+                                    <div class="grid__item">
+                                        <h4 class="modal__title h2">Titre de la modal 1</h4>
+                                        <p>
+                                            <svg loading="lazy" width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path fill="currentColor"
+                                                d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                                            </path> 
+                                            </svg>
+                                            <i>Année : 2023</i>
+                                        </p>
+                                        <p class="category">
+                                            <svg loading="lazy" width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                                            class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                                            </path>
+                                            </svg>
+                                            Titre
+                                        </p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Quaerat accusantium laborum aliquam enim. Vero
+                                            voluptate, animi, sint vel mollitia ut odio, eius quis
+                                            expedita quo at! Dignissimos ipsum odit dolores!
+                                        </p>
+                                        <h5 class="h3">Informations</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Quaerat accusantium laborum aliquam enim. Vero
+                                            voluptate, animi, sint vel mollitia ut odio, eius quis
+                                            expedita quo at! Dignissimos ipsum odit dolores!
+                                        </p>
+                                        <h5 class="h3">Liste</h5>
+                                        <ul>
+                                            <li>Point 1</li>
+                                            <li>Point 2</li>
+                                            <li>Point 3</li>
+                                            <li>Point 4</li>
+                                            <li>Point 5</li>
+                                            <li>Point 6</li>
+                                        </ul>                                    
+                                    </div>        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="card" data-category="web">
+                        <img src="Rectangle_104.png" alt="Jardins et piscines" width="1500" height="500" class="card__image" loading="lazy">
+                        <div class="card__inner">
+                            <h3 class="card__title">Jardins et piscines</h3>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="#" class="card__link" data-id="modal-2">
+                                <div class="progressbar">
+                                    <h2 class="bar" data-width="100">Voir cette collection</h2>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal" id="modal-2">
+                        <button class="modal__close">&times;</button>
+                        <div class="modal__content">
+                            <div class="container">
+                                <div class="grid">
+                                    <div class="grid__item">
+                                        <img width="560" height="373" src="https://picsum.photos/600/?400random=13" alt="Présentation" class="card__image" loading="lazy">
+                                        <img width="560" height="373" src="https://picsum.photos/600/?400random=14" alt="Une autre présentation" class="card__image" loading="lazy">
+                                    </div>
+                                    <div class="grid__item">
+                                        <h4 class="modal__title h2">Titre de la modal 2</h4>
+                                        <p>
+                                            <svg loading="lazy" width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path fill="currentColor"
+                                                d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                                            </path> 
+                                            </svg>
+                                            <i>Année : 2023</i>
+                                        </p>
+                                        <p class="category">
+                                            <svg loading="lazy" width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                                            class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                                            </path>
+                                            </svg>
+                                            Titre
+                                        </p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Quaerat accusantium laborum aliquam enim. Vero
+                                            voluptate, animi, sint vel mollitia ut odio, eius quis
+                                            expedita quo at! Dignissimos ipsum odit dolores!
+                                        </p>
+                                        <h5 class="h3">Informations</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Quaerat accusantium laborum aliquam enim. Vero
+                                            voluptate, animi, sint vel mollitia ut odio, eius quis
+                                            expedita quo at! Dignissimos ipsum odit dolores!
+                                        </p>
+                                        <h5 class="h3">Liste</h5>
+                                        <ul>
+                                            <li>Point 1</li>
+                                            <li>Point 2</li>
+                                            <li>Point 3</li>
+                                            <li>Point 4</li>
+                                            <li>Point 5</li>
+                                            <li>Point 6</li>
+                                        </ul>                                    
+                                    </div>        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="card" data-category="web">
+                        <img src="Rectangle_105.png" alt="Bains et cuisines" width="1500" height="500" class="card__image" loading="lazy">
+                        <div class="card__inner">
+                            <h3 class="card__title">Bains & Cuisines</h3>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="#" class="card__link" data-id="modal-3">
+                                <div class="progressbar">
+                                    <h2 class="bar" data-width="100">Voir cette collection</h2>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal" id="modal-3">
+                        <button class="modal__close">&times;</button>
+                        <div class="modal__content">
+                            <div class="container">
+                                <div class="grid">
+                                    <div class="grid__item">
+                                        <img width="560" height="373" src="https://picsum.photos/600/?400random=15" alt="Présentation" class="card__image" loading="lazy">
+                                        <img width="560" height="373" src="https://picsum.photos/600/?400random=16" alt="Une autre présentation" class="card__image" loading="lazy">
+                                    </div>
+                                    <div class="grid__item">
+                                        <h4 class="modal__title h2">Titre de la modal 3</h4>
+                                        <p>
+                                            <svg loading="lazy" width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path fill="currentColor"
+                                                d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                                            </path> 
+                                            </svg>
+                                            <i>Année : 2023</i>
+                                        </p>
+                                        <p class="category">
+                                            <svg loading="lazy" width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                                            class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                                            </path>
+                                            </svg>
+                                            Titre
+                                        </p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Quaerat accusantium laborum aliquam enim. Vero
+                                            voluptate, animi, sint vel mollitia ut odio, eius quis
+                                            expedita quo at! Dignissimos ipsum odit dolores!
+                                        </p>
+                                        <h5 class="h3">Informations</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Quaerat accusantium laborum aliquam enim. Vero
+                                            voluptate, animi, sint vel mollitia ut odio, eius quis
+                                            expedita quo at! Dignissimos ipsum odit dolores!
+                                        </p>
+                                        <h5 class="h3">Liste</h5>
+                                        <ul>
+                                            <li>Point 1</li>
+                                            <li>Point 2</li>
+                                            <li>Point 3</li>
+                                            <li>Point 4</li>
+                                            <li>Point 5</li>
+                                            <li>Point 6</li>
+                                        </ul>                                    
+                                    </div>        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="card" data-category="web">
+                        <img src="Rectangle_106.png" alt="Expo client" width="1500" height="500" class="card__image" loading="lazy">
+                        <div class="card__inner">
+                            <h3 class="card__title">Expo Client</h3>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="#" class="card__link" data-id="modal-4">
+                                <div class="progressbar">
+                                    <h2 class="bar" data-width="100">Voir cette collection</h2>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal" id="modal-4">
+                        <button class="modal__close">&times;</button>
+                        <div class="modal__content">
+                            <div class="container">
+                                <div class="grid">
+                                    <div class="grid__item">
+                                        <img width="560" height="373" src="https://picsum.photos/600/?400random=17" alt="Présentation" class="card__image" loading="lazy">
+                                        <img width="560" height="373" src="https://picsum.photos/600/?400random=18" alt="Une autre présentation" class="card__image" loading="lazy">
+                                    </div>
+                                    <div class="grid__item">
+                                        <h4 class="modal__title h2">Titre de la modal 4</h4>
+                                        <p>
+                                            <svg loading="lazy" width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path fill="currentColor"
+                                                d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                                            </path> 
+                                            </svg>
+                                            <i>Année : 2023</i>
+                                        </p>
+                                        <p class="category">
+                                            <svg loading="lazy" width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                                            class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                                            </path>
+                                            </svg>
+                                            Titre
+                                        </p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Quaerat accusantium laborum aliquam enim. Vero
+                                            voluptate, animi, sint vel mollitia ut odio, eius quis
+                                            expedita quo at! Dignissimos ipsum odit dolores!
+                                        </p>
+                                        <h5 class="h3">Informations</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Quaerat accusantium laborum aliquam enim. Vero
+                                            voluptate, animi, sint vel mollitia ut odio, eius quis
+                                            expedita quo at! Dignissimos ipsum odit dolores!
+                                        </p>
+                                        <h5 class="h3">Liste</h5>
+                                        <ul>
+                                            <li>Point 1</li>
+                                            <li>Point 2</li>
+                                            <li>Point 3</li>
+                                            <li>Point 4</li>
+                                            <li>Point 5</li>
+                                            <li>Point 6</li>
+                                        </ul>                                    
+                                    </div>        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="card" data-category="web">
+                        <img src="Rectangle_107.png" alt="Mobiliers et décorations" width="1500" height="500" class="card__image" loading="lazy">
+                        <div class="card__inner">
+                            <h3 class="card__title">Mobiliers & Décorations</h3>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="#" class="card__link" data-id="modal-5">
+                                <div class="progressbar">
+                                    <h2 class="bar" data-width="100">Voir cette collection</h2>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal" id="modal-5">
+                        <button class="modal__close">&times;</button>
+                        <div class="modal__content">
+                            <div class="container">
+                                <div class="grid">
+                                    <div class="grid__item">
+                                        <img width="560" height="373" src="https://picsum.photos/600/?400random=19" alt="Présentation" class="card__image" loading="lazy">
+                                        <img width="560" height="373" src="https://picsum.photos/600/?400random=20" alt="Une autre présentation" class="card__image" loading="lazy">
+                                    </div>
+                                    <div class="grid__item">
+                                        <h4 class="modal__title h2">Titre de la modal 5</h4>
+                                        <p>
+                                            <svg loading="lazy" width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path fill="currentColor"
+                                                d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                                            </path> 
+                                            </svg>
+                                            <i>Année : 2023</i>
+                                        </p>
+                                        <p class="category">
+                                            <svg loading="lazy" width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                                            class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                                            </path>
+                                            </svg>
+                                            Titre
+                                        </p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Quaerat accusantium laborum aliquam enim. Vero
+                                            voluptate, animi, sint vel mollitia ut odio, eius quis
+                                            expedita quo at! Dignissimos ipsum odit dolores!
+                                        </p>
+                                        <h5 class="h3">Informations</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Quaerat accusantium laborum aliquam enim. Vero
+                                            voluptate, animi, sint vel mollitia ut odio, eius quis
+                                            expedita quo at! Dignissimos ipsum odit dolores!
+                                        </p>
+                                        <h5 class="h3">Liste</h5>
+                                        <ul>
+                                            <li>Point 1</li>
+                                            <li>Point 2</li>
+                                            <li>Point 3</li>
+                                            <li>Point 4</li>
+                                            <li>Point 5</li>
+                                            <li>Point 6</li>
+                                        </ul>                                    
+                                    </div>        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="card" data-category="web">
+                        <img src="Rectangle_108.png" alt="Produits additionnels" width="1500" height="500" class="card__image" loading="lazy">
+                        <div class="card__inner">
+                            <h3 class="card__title">Produits additionnels</h3>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="#" class="card__link" data-id="modal-6">
+                                <div class="progressbar">
+                                    <h2 class="bar" data-width="100">Voir cette collection</h2>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal" id="modal-6">
+                        <button class="modal__close">&times;</button>
+                        <div class="modal__content">
+                            <div class="container">
+                                <div class="grid">
+                                    <div class="grid__item">
+                                        <img width="560" height="373" src="https://picsum.photos/600/?400random=21" alt="Présentation" class="card__image" loading="lazy">
+                                        <img width="560" height="373" src="https://picsum.photos/600/?400random=22" alt="Une autre présentation" class="card__image" loading="lazy">
+                                    </div>
+                                    <div class="grid__item">
+                                        <h4 class="modal__title h2">Titre de la modal 6</h4>
+                                        <p>
+                                            <svg loading="lazy" width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path fill="currentColor"
+                                                d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                                            </path> 
+                                            </svg>
+                                            <i>Année : 2023</i>
+                                        </p>
+                                        <p class="category">
+                                            <svg loading="lazy" width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                                            class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                                            </path>
+                                            </svg>
+                                            Titre
+                                        </p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Quaerat accusantium laborum aliquam enim. Vero
+                                            voluptate, animi, sint vel mollitia ut odio, eius quis
+                                            expedita quo at! Dignissimos ipsum odit dolores!
+                                        </p>
+                                        <h5 class="h3">Informations</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Quaerat accusantium laborum aliquam enim. Vero
+                                            voluptate, animi, sint vel mollitia ut odio, eius quis
+                                            expedita quo at! Dignissimos ipsum odit dolores!
+                                        </p>
+                                        <h5 class="h3">Liste</h5>
+                                        <ul>
+                                            <li>Point 1</li>
+                                            <li>Point 2</li>
+                                            <li>Point 3</li>
+                                            <li>Point 4</li>
+                                            <li>Point 5</li>
+                                            <li>Point 6</li>
+                                        </ul>                                    
+                                    </div>        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="card" data-category="web">
+                        <img src="Rectangle_109.png" alt="Destockage" width="1500" height="500" class="card__image" loading="lazy">
+                        <div class="card__inner">
+                            <h3 class="card__title">Destockage</h3>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="#" class="card__link" data-id="modal-7">
+                                <div class="progressbar">
+                                    <h2 class="bar" data-width="100">Voir cette collection</h2>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal" id="modal-7">
+                        <button class="modal__close">&times;</button>
+                        <div class="modal__content">
+                            <div class="container">
+                                <div class="grid">
+                                    <div class="grid__item">
+                                        <img width="560" height="373" src="https://picsum.photos/600/?400random=23" alt="Présentation" class="card__image" loading="lazy">
+                                        <img width="560" height="373" src="https://picsum.photos/600/?400random=24" alt="Une autre présentation" class="card__image" loading="lazy">
+                                    </div>
+                                    <div class="grid__item">
+                                        <h4 class="modal__title h2">Titre de la modal 7</h4>
+                                        <p>
+                                            <svg loading="lazy" width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path fill="currentColor"
+                                                d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                                            </path> 
+                                            </svg>
+                                            <i>Année : 2023</i>
+                                        </p>
+                                        <p class="category">
+                                            <svg loading="lazy" width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                                            class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                                            </path>
+                                            </svg>
+                                            Titre
+                                        </p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Quaerat accusantium laborum aliquam enim. Vero
+                                            voluptate, animi, sint vel mollitia ut odio, eius quis
+                                            expedita quo at! Dignissimos ipsum odit dolores!
+                                        </p>
+                                        <h5 class="h3">Informations</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Quaerat accusantium laborum aliquam enim. Vero
+                                            voluptate, animi, sint vel mollitia ut odio, eius quis
+                                            expedita quo at! Dignissimos ipsum odit dolores!
+                                        </p>
+                                        <h5 class="h3">Liste</h5>
+                                        <ul>
+                                            <li>Point 1</li>
+                                            <li>Point 2</li>
+                                            <li>Point 3</li>
+                                            <li>Point 4</li>
+                                            <li>Point 5</li>
+                                            <li>Point 6</li>
+                                        </ul>                                    
+                                    </div>        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="card" data-category="web">
+                        <img src="Rectangle_110.png" alt="Port" width="1500" height="500" class="card__image" loading="lazy">
+                        <div class="card__inner">
+                            <h3 class="card__title">Port</h3>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="#" class="card__link" data-id="modal-8">
+                                <div class="progressbar">
+                                    <h2 class="bar" data-width="100">Voir cette collection</h2>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal" id="modal-8">
+                        <button class="modal__close">&times;</button>
+                        <div class="modal__content">
+                            <div class="container">
+                                <div class="grid">
+                                    <div class="grid__item">
+                                        <img width="560" height="373" src="https://picsum.photos/600/?400random=25" alt="Présentation" class="card__image" loading="lazy">
+                                        <img width="560" height="373" src="https://picsum.photos/600/?400random=26" alt="Une autre présentation" class="card__image" loading="lazy">
+                                    </div>
+                                    <div class="grid__item">
+                                        <h4 class="modal__title h2">Titre de la modal 8</h4>
+                                        <p>
+                                            <svg loading="lazy" width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                                            data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path fill="currentColor"
+                                                d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                                            </path> 
+                                            </svg>
+                                            <i>Année : 2023</i>
+                                        </p>
+                                        <p class="category">
+                                            <svg loading="lazy" width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                                            class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                                            </path>
+                                            </svg>
+                                            Titre
+                                        </p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Quaerat accusantium laborum aliquam enim. Vero
+                                            voluptate, animi, sint vel mollitia ut odio, eius quis
+                                            expedita quo at! Dignissimos ipsum odit dolores!
+                                        </p>
+                                        <h5 class="h3">Informations</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Quaerat accusantium laborum aliquam enim. Vero
+                                            voluptate, animi, sint vel mollitia ut odio, eius quis
+                                            expedita quo at! Dignissimos ipsum odit dolores!
+                                        </p>
+                                        <h5 class="h3">Liste</h5>
+                                        <ul>
+                                            <li>Point 1</li>
+                                            <li>Point 2</li>
+                                            <li>Point 3</li>
+                                            <li>Point 4</li>
+                                            <li>Point 5</li>
+                                            <li>Point 6</li>
+                                        </ul>                                    
+                                    </div>        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
